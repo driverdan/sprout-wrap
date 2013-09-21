@@ -2,7 +2,7 @@ recipes:
 - meta::osx_base
 - meta::settings
 - meta::osx_development
-- meta::applications
+- meta::apps
 - meta::ruby_development
 - pivotal_workstation::git_projects
 node_attributes:
