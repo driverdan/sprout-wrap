@@ -1,0 +1,6 @@
+include_recipe "sprout-osx-settings::defaults_fast_key_repeat_rate"
+include_recipe "sprout-osx-settings::enable_assistive_devices"
+include_recipe "sprout-osx-settings::terminal_preferences"
+include_recipe "sprout-osx-settings::dock_preferences"
+include_recipe "sprout-osx-settings::global_environment_variables"
+include_recipe "pivotal_workstation::keyboard_preferences"

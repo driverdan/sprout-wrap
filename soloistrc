@@ -1,18 +1,14 @@
 recipes:
 - meta::osx_base
+- meta::settings
 - meta::osx_development
+- meta::applications
 - meta::ruby_development
 - pivotal_workstation::git_projects
 node_attributes:
-  git_pairs_domain: pivotallabs.com
-  git_pairs_authors:
-    - initials: ah
-      name: Abhijit Hiremagalur
-      shortname: abhi
-    - initials: bc
-      name: Brian Cunnie
-      shortname: cunnie
+  dock_preferences:
+    orientation: bottom
   git_projects:
     -
-      - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
+      - node-XMLHttpRequest
+      - git@github.com:driverdan/node-XMLHttpRequest.git
